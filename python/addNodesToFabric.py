@@ -3,7 +3,7 @@ import os
 import json
 from pprint import pprint
 
-token = ""
+token = os.environ['AUTH_TOKEN']
 headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",

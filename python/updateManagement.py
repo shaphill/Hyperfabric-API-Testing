@@ -10,7 +10,7 @@ nodes = [
   "node-leaf1"
 ]
 
-token = ""
+token = os.environ['AUTH_TOKEN']
 
 headers = {
   "Content-Type": "application/json",
